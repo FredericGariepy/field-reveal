@@ -14,8 +14,9 @@ if [ ! -f "$fields_file" ]; then
 fi
 
 # Check if exactly one argument is passed
+# \nfield-reveal -h for help. Would be nice to have this, and more options.
 if [ $# -ne 1 ]; then
-  echo -e "Usage: field-reveal -option /path/to/target. Reveal fields of Directories and Files. \nfield-reveal -h for help."
+  echo -e "Usage: field-reveal -option /path/to/target. Reveal fields of Directories and Files."
   exit 1
 fi
 
@@ -106,7 +107,7 @@ show_file() {
     }
   ' "$fields_file")
 
-  # Extract separator and fields_count directly from the fields string
+  # Extract separator, awk_parse and fields_count directly from the fields string
   separator=$(echo "$fields" | cut -d',' -f1)
   separator=${separator:-","}
 
