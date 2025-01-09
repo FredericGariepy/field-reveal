@@ -10,10 +10,10 @@ Data fields in Linux are often non-present and requires internet search. \
 This is a simple solution to clearly display this basic information.
 
 # contributing
-Adding fields in the `fields.txt` file will grow the use of the tool. \
+Adding entries to `fields.txt` will grow the use of the tool. \
 Each entry contains comma seperated values.
 
-1. Path to file or directory.
+1. Path to file,
 2. awk field separator. Defaults to `,` if empty.
 3. Optional, use `PFAT` to use regular expression for complex paterns in awk. Defaults to field separator (-FS), if empty.
 4. Number of fields.
