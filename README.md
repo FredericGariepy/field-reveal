@@ -13,7 +13,7 @@ This is a simple solution to clearly display this basic information.
 Adding entries to `fields.txt` will grow the use of the tool. \
 Each entry contains comma seperated values.
 
-1. Path to file,
+1. Path to file.
 2. awk field separator. Defaults to `,` if empty.
 3. Optional, use `PFAT` to use regular expression for complex paterns in awk. Defaults to field separator (-FS), if empty.
 4. Number of fields.
