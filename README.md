@@ -25,3 +25,8 @@ Example:
 3. FPAT,
 4. 5,
 5. Timestamp, Error code, Process/Thread IDs, Message code, Message
+
+*All together* the entry should look like this:
+```
+/var/log/apache2/error.log,([^[:space:]]+|"[^"]+"|\\[[^]]+\\]),FPAT,5, Timestamp, Error code, Process/Thread IDs, Message code, Message
+```
