@@ -1,5 +1,5 @@
 # field-reveal
-Linux command line tool that reveals the fields in Linux files or directories, along with a strutured display.
+Linux command line tool that reveals the fields in Linux files or directories, along with a structured display.
 
 | before | after |
 |--------|-------|
